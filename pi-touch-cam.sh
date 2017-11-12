@@ -108,9 +108,9 @@ echo "Adafruit Pi Cam to home directory..."
 
 cd ~pi
 
-wget https://github.com/adafruit/adafruit-pi-cam/archive/master.zip
-unzip master.zip
-rm master.zip
+wget ttps://raw.githubusercontent.com/mehmetkaraha/camera/master/cam.zip
+unzip cam.zip
+rm cam.zip
 
 chown -R pi:pi adafruit-pi-cam-master
 
